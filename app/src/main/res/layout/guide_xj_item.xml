@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/guide_item_name"
+        android:text="aa"
+        android:layout_margin="2dp"
+        android:textSize="15sp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/shape_guide_xj_item"
+        android:letterSpacing="0.1"
+        >
+
+    </TextView>
+
+</LinearLayout>

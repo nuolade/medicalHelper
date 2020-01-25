@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/shape_tz_suggest_list"
+    android:layout_margin="1dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_title"
+        android:textSize="14sp"
+        android:layout_margin="1dp"
+        android:padding="2dp"
+        android:textStyle="bold"
+        />
+    <com.lixs.charts.BarChart.LBarChartView
+        android:id="@+id/bar_chart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:barShowNumber="5"
+        app:borderColor="@color/colorAccent"
+        app:bottomTextSpace="20dp"
+        app:dataTextColor="@color/colorPrimaryDark"
+        app:dataTextSize="12sp"
+        app:descriptionTextColor="@color/colorPrimary"
+        app:descriptionTextSize="20sp"
+        app:isClickAnimation="true"
+        app:labelTextColor="@color/colorPrimary"
+        app:labelTextSize="10sp"
+        app:leftTextSpace="35dp"
+        app:titleTextColor="@color/colorPrimaryDark"
+        app:titleTextSize="20sp"
+        app:topTextSpace="25dp" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/tz_all_title"
+        android:background="@drawable/shape_ques_title_xj"
+        android:id="@+id/q_title"
+        android:layout_margin="1dp"
+        android:paddingLeft="20dp"
+        android:textSize="32sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorTextWhite"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/q_class"
+        android:layout_margin="2dp"
+        android:paddingLeft="20dp"
+        android:textSize="27sp"
+        android:gravity="center_vertical"
+        android:background="@color/colorLightPink"
+        android:textColor="@color/colorTextWhite"
+        android:letterSpacing="0.1"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/q_content"
+        android:text="@string/question_content_tint"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape_ques_content_xj"
+        android:padding="15dp"
+        android:textSize="22sp"
+        android:letterSpacing="0.1"
+        android:lineSpacingExtra="10sp"
+        android:scrollbars="vertical"
+
+        />
+
+
+
+</LinearLayout>

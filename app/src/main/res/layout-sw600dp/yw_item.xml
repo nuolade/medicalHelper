@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp"
+    android:orientation="vertical"
+    android:id="@+id/layout_yw_item"
+    android:background="@color/colorHoneydew"
+    android:layout_margin="2dp"
+    >
+<!--    <include layout="@layout/line_h"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:background="@drawable/shape_ques_title_yw"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextWhite"
+            android:text="药名："
+            android:id="@+id/text_ym"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextWhite"
+            android:id="@+id/yw_item_title"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="1dp"
+            android:layout_alignParentRight="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="类别："
+                android:textSize="18sp"
+                android:padding="1dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/yw_item_class"
+                android:textSize="18sp"
+                android:paddingRight="10dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBG"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_ques_title_yw"
+            android:textColor="@color/colorTextWhite"
+            android:layout_margin="1dp"
+            android:paddingLeft="20dp"
+            android:textSize="30sp"
+            android:gravity="center_vertical"
+            android:id="@+id/text_guide_title"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/layout_history_yw"/>
+    <include layout="@layout/yw_filter"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHoneydew"
+        android:id="@+id/text_tap"
+        android:textSize="16sp"
+        android:text="@string/yw_search_intor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="无查询结果"
+        android:layout_margin="2dp"
+        android:padding="2dp"
+        android:id="@+id/text_res_empty"
+        android:visibility="gone"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/list_guide"
+        android:layout_margin="2dp"
+        android:divider="@null"
+        >
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+//GreenDao自动生成类插件
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.wenda01"
+        minSdkVersion 19
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //添加如下配置 开启annotation processor
+        javaCompileOptions {
+            annotationProcessorOptions {
+                includeCompileClasspath true
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        //GreenDao配置
+        greendao {
+            //数据库版本
+            schemaVersion 2
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.+'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'org.litepal.android:core:1.4.1'
+    implementation 'com.github.wulee510505:Text2Speach:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.okhttp3:okhttp:3.9.0'
+    implementation 'q.rorbin:RadarView:1.0.4'
+    implementation 'com.android.support:recyclerview-v7:27.+'
+    implementation 'com.facebook.stetho:stetho:1.3.1'
+    implementation 'com.github.talonerain:SyRadarView:1.0.2'
+    implementation 'com.chauncey.view:polygonsview:1.0.1'
+    implementation 'org.greenrobot:greendao:3.2.2'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'org.apache.commons:commons-lang3:3.7'
+    implementation 'com.hankcs:hanlp:portable-1.7.4'
+    implementation 'org.jsoup:jsoup:1.9.2'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'com.lixs.charts:charts:1.0.7'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+//    implementation'com.wx.wheelview:wheelview:1.3.3'
+
+
+//    implementation 'org.projectlombok:lombok:1.16.8'  //添加lombok依赖
+//    implementation 'org.glassfish:javax.annotation:10.0-b28' //java注解
+//    implementation 'org.slf4j:slf4j-android:1.7.25'
+//    implementation 'org.springframework.android:spring-android-rest-template:2.0.0.M3'
+
+//    implementation 'net.sourceforge.jexcelapi:jxl:2.6.12'
+
+//    implementation 'com.squareup.okio:okio:1.13.0'
+}

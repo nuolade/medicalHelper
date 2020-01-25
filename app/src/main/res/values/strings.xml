@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">家庭医疗助手</string>
+    <string name="question_title_q">询 问</string>
+    <string name="question_title_s">建 议</string>
+    <string name="question_content_tint">这是一个问题或答案</string>
+    <string name="tz_all_title">体质综合检测</string>
+    <string name="guide_bz_title">请选择查询的病症</string>
+    <string name="guide_yw_title">请选择查询的药物</string>
+    <!--network state-->
+    <string name="network_not_info">当前没有可用网络,请检查设置!</string>
+    <!--iat string-->
+    <string name="pref_key_iat_show">iat_show</string>
+    <string name="text_begin">请开始说话…</string>
+    <string name="current_tip">现只开放症状图功能，点击进入。
+        右上角的方块语音功能开关（绿色开启，红色关闭），列表中只能使用前27项，选中进入相应症状。
+        语音功能下，朗读完后，自动进入语音识别；也可点击麦克风直接语音输入。
+        循环按钮为重新播放。
+        语音识别录入可相应执行上一步、是、否三个功能。
+        识别的内容为与三个功能相近的词。
+    </string>
+    <string name="yw_search_intor">注意：查询结果中药名加星表示处方药，否则为非处方药；下划线表示通用名称，否则为品牌名称。</string>
+    <string name="login_password">含数字与字母，长6-12位</string>
+    <string name="login_height">单位：厘米，范围：0-300</string>
+    <string name="login_weight">单位：斤，范围：0-1500</string>
+    <string name="sign_finish">您已成功完成注册！点击“确认”将保持登录状态，并返回主界面；点击“退出”将不进行登录，并返回主界面；点击“停留”将停留在此界面，可进行信息的修改和完善。</string>
+    <string name="exit_finish">将进行账号退出操作！点击“确认”将退出账号；点击“取消”将继续保持登录。</string>
+    <string name="update_finish">您已成功完成修改！点击“确认”将保持登录状态，并返回主界面；点击“退出”将不进行登录，并返回主界面；点击“停留”将停留在此界面，可进行信息的修改和完善。</string>
+    <string name="login_finish">您已成功完成登录！点击“确认”将保持登录状态，并返回主界面；点击“停留”将停留在此界面，可进行信息的修改和完善。</string>
+
+    <string name="title_1">Cool card</string>
+    <string name="title_2">Ok card</string>
+    <string name="title_3">Bad card</string>
+    <string name="title_4">Ugly card</string>
+
+    <string name="text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+    <string name="text_yangxu">阳虚体质的人平时比较怕冷，手脚常冰冷，口唇的颜色也较白，不爱说话，而且睡眠也偏多。</string>
+    <string name="text_yinxu">阴虚质的人常有热象表现，经常口渴，喉咙干、容易失眠、头昏眼花、容易心烦气躁、脾气差，皮肤枯燥无光泽、形体消瘦、盗汗、手足易冒汗发热、小便黄、粪便硬、常便秘等。</string>
+    <string name="text_qixu">气虚质的人常形体消瘦或偏胖，身体容易疲倦乏力，面色也比较苍白，说话声音低怯，常自汗出，且动则尤甚，心跳较快，食量偏少，舌头颜色淡、舌苔白，脉虚弱。</string>
+    <string name="text_tanshi">痰湿体质是目前比较常见的一种体质类型，多见于肥胖人，或以前偏瘦后来发胖的人。常表现有体形肥胖，腹部肥满松软，面部皮肤油脂较多，多汗且粘，胸闷，痰多，面色淡黄而暗，容易困倦。</string>
+    <string name="text_shire">湿热体质是指湿热内蕴，以面垢油光、口苦苔黄腻等湿热表现为主要特征的体质状态。</string>
+    <string name="text_xueyu">血瘀体质是指血行不畅，肤色晦暗、舌质紫暗等血瘀表现为主要特征的体质状态。</string>
+    <string name="text_tebing">特禀体质是指先天失常，以生理缺陷、过敏反应等为主要特征的体质状态。</string>
+    <string name="text_qiyu">气郁体质是指气机郁滞，以神情抑郁、忧虑脆弱等气郁表现为主要特征的体质状态。</string>
+    <string name="text_pinghe">平和体质为正常体质。</string>
+    <string name="text_pixu">脾虚体质的儿童由于元气不足，脾气亏虚，以脾胃嫩弱、功能状态低下、体弱为主要特征的一种体质状态。易患疳积、泄泻、厌食、呕吐等疾病。</string>
+    <string name="text_jizhi">积滞质的儿童由于脾胃积滞、食而不化，而影响到脾胃的运化，导致的一种消化不良的综合症状。常出现腹满胀痛，或吐乳，常伴有哭闹、夜寐不安。易患疳积、厌食、便秘、泄泻等疾病，可转化为营养不良，严重时可以影响小儿营养吸收和生长发育。</string>
+    <string name="text_rezhi">热滞质儿童由于脾胃亏虚或饮食不节，积滞日久化热，导致功能状态亢奋为主要特征的的一种体质状态。尤其进食“燥热”食品后，易出现不适。易患口腔溃疡、感冒、外感发热、便秘等疾病。</string>
+    <string name="text_shizhi">湿滞质是由于脾气亏虚，湿浊阻滞，以脾虚湿滞为主要特征的一种体质类型，多见于体型虚胖的儿童，常表现有不爱运动、面部皮肤油脂较多，四肢容易困乏。</string>
+    <string name="text_xinhuowang">心火偏旺体质是由于小儿心常有余，心火易亢，以心火亢盛为主要特征的一种体质状态。易患失眠、疳积、小儿多动症、口臭、口腔溃疡、便秘、感冒、外感发热等疾病。</string>
+    <string name="text_yibing">异禀体质是由于遗传因素、环境因素、食物因素、药物因素、免疫因素，或母亲生产时意外因素等先天禀赋不足和禀赋特异性遗传等因素造成的一种体质。包括过敏体质、遗传病体质、胎传体质、免疫缺陷体质。</string>
+    <string name="text_shengji">生机旺盛体质为正常体质，从小机体就有较好的自我调节能力，对自然环境适应力强，生长发育良好，智力发育正常，精神状态好，疾病少，恢复快。</string>
+    <string name="text_tz_intor">您好，您已选择体质辨识模块。此模块您可以根据自身的年龄、性别进行问题的选择。在提出问题后，请您根据自身状况进行是否或者程度的选择。当您完成了全部问题后，我们将对您的状况进行分析。同样，您已可以查看之前的体质辨识的检测记录和调理方案。</string>
+    <string name="text_tz_next">您已完成了符合您状况的全部问题，我们给出了您的体质状况。若您想看关于您体质的养生调理方案，请先将您本次的数据“保存”到我们的服务器，再“分析”查看提供给您的调理方案。</string>
+    <string name="text_tz_record_intor">欢迎使用体质辨识记录查询模块。在这一模块您可以查询之前的辨识记录，并且可以根据检测结果，查看我们提供给您的调理方案。</string>
+    <string name="text_ques_num_over_index">您选择的题目超出选择范围</string>
+    <string name="text_request_error">网络数据访问失败</string>
+    <string name="text_ques_to_first">已经是第一道题目了</string>
+    <string name="text_bz_intor">您好，您已选择智能预诊模块。在这一模块您可以选择想要查询的病症，根据自身状况对问题进行回答，我们会根据您的回答给出相应的建议。</string>
+    <string name="text_sound_intor">你已关闭语音辅助功能，无法为您进行语音播报。您可以选择重新打开语音辅助功能。</string>
+    <string name="text_yw_intor">您好，您已选择药物查询模块。在这一模块您可以选择想要查询的药物，您可以根据药物名称或功效进行检索，同时我们还提供了高级的检索方式。最终的查询结果包括药物基本介绍，功效和与其他药物相互作用等信息。</string>
+    <string name="text_jq_intor">您好，您已选择节气养生模块。在这一模块您可以选相应的节气，我们会为您提供相关介绍、养生和饮食方面的注意事项。</string>
+    <string name="text_xj_intor">您好，您已选择健康宣教模块。在这一模块您可以选择想要查询的问题，我们将给出相关问题的答复。</string>
+    <string name="text_phone_error">保存失败，您输入的手机号有误。</string>
+    <string name="text_bz_record_intor">欢迎使用病症检测记录查询模块。在这一模块您可以查询之前的病症记录。</string>
+    <string name="text_del_intor">请确认是否删除选中的记录。</string>
+    <string name="text_qa_init">您好，我是助手小白。您有什么问题可以询问我？</string>
+    <string name="text_qa_intor">您好，您已选择知识问答模块。在这一模块您可以与医疗助手小白进行对话，询问医疗方面的问题。</string>
+</resources>

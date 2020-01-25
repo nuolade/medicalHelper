@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="请选择检测的项目"
+        android:background="@drawable/shape_ques_title"
+        android:textColor="@color/colorTextWhite"
+        android:layout_margin="1dp"
+        android:paddingLeft="20dp"
+        android:textSize="25sp"
+        android:gravity="center_vertical"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:id="@+id/layout_tz_over"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/button_tz_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape_tz_guide"
+                android:padding="2dp"
+                android:layout_marginBottom="1dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/layout_tz_one"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLightCyan"
+                        android:textColor="@color/colorTextGray"
+                        android:layout_margin="1dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:text="一、九体质单项检测"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/down"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="centerInside"
+                        android:id="@+id/image_one"
+                        />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_tz_ones"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/button_tz_yangxu"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="阳虚质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_yinxu"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="阴虚质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_qixu"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="气虚质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_tanshi"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="痰湿质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_shire"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="湿热质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_xueyu"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="血瘀质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_qiyu"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="气郁质检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_xuexu"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="血虚质检测" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape_tz_guide"
+                android:padding="2dp"
+                android:layout_marginBottom="1dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/layout_tz_all"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLightCyan"
+                        android:textColor="@color/colorTextGray"
+                        android:layout_margin="1dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:text="二、九体质综合检测"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/down"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="centerInside"
+                        android:id="@+id/image_all"
+                        />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layout_tz_alls"
+                    android:visibility="gone"
+                    >
+                    <Button
+                        android:id="@+id/button_tz_child"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="儿童检测(0-12岁）" />
+
+                    <Button
+                        android:id="@+id/button_tz_key"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="成人快捷检测" />
+
+                    <Button
+                        android:id="@+id/button_tz_adult"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="成人常规检测" />
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:id="@+id/layout_tz_adult"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/colorAliceBlue"
+                            android:textColor="@color/colorTextGray"
+                            android:layout_margin="1dp"
+                            android:paddingLeft="20dp"
+                            android:textSize="17sp"
+                            android:gravity="center_vertical"
+                            android:text="成人体质在线检测"
+                            />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_margin="10dp"
+                            android:src="@drawable/down"
+                            android:layout_gravity="right|center_vertical"
+                            android:scaleType="centerInside"
+                            android:id="@+id/image_adult"
+                            />
+                    </FrameLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/layout_tz_adults"
+                        android:visibility="gone"
+                        >
+                        <Button
+                            android:id="@+id/button_tz_oM"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_margin="2dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorTextBlack"
+                            android:background="@drawable/shape_tz_guide_button"
+                            android:text="老年男性（已满60岁）" />
+
+                        <Button
+                            android:id="@+id/button_tz_oW"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_margin="2dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorTextBlack"
+                            android:background="@drawable/shape_tz_guide_button"
+                            android:text="老年女性（已满60岁）" />
+
+                        <Button
+                            android:id="@+id/button_tz_yM"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_margin="2dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorTextBlack"
+                            android:background="@drawable/shape_tz_guide_button"
+                            android:text="年轻男性（不满60岁）" />
+
+                        <Button
+                            android:id="@+id/button_tz_yW"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_margin="2dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorTextBlack"
+                            android:background="@drawable/shape_tz_guide_button"
+                            android:text="年轻女性（不满60岁）" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape_tz_guide"
+                android:padding="2dp"
+                android:layout_marginBottom="1dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/layout_tz_wx"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/colorLightCyan"
+                        android:textColor="@color/colorTextGray"
+                        android:layout_margin="1dp"
+                        android:paddingLeft="20dp"
+                        android:textSize="18sp"
+                        android:gravity="center_vertical"
+                        android:text="三、五行体质检测"
+                        />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/down"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="centerInside"
+                        android:id="@+id/image_wx"
+                        />
+                </FrameLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/layout_tz_wxs"
+                    android:visibility="gone"
+                    >
+                    <Button
+                        android:id="@+id/button_tz_wx"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="2dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorTextBlack"
+                        android:background="@drawable/shape_tz_guide_button"
+                        android:text="五型体质检测" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button_tz_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="记录查询"
+        android:gravity="center"
+        android:background="@drawable/shape_button_pre"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+</LinearLayout>

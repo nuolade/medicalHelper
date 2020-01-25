@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/tz_all_title"
+        android:background="@drawable/shape_ques_title"
+        android:id="@+id/q_title"
+        android:layout_margin="1dp"
+        android:paddingLeft="20dp"
+        android:textSize="32sp"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorTextWhite"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/q_class"
+        android:layout_margin="2dp"
+        android:paddingLeft="20dp"
+        android:textSize="27sp"
+        android:gravity="center_vertical"
+        android:background="@color/colorBGTitle"
+        android:textColor="@color/colorTextWhite"
+        android:letterSpacing="0.1"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/q_layout_progress"
+        >
+        <ProgressBar
+            android:layout_margin="2dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressDrawable="@drawable/progressbar"
+            android:progress="1"
+            android:id="@+id/q_progress"
+
+            />
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/up"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:id="@+id/q_button_show"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/q_layout_r"
+        android:layout_weight="4">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/q_recycler"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/q_type"
+        android:visibility="gone"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@color/colorLightCyan"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/q_content"
+        android:text="@string/question_content_tint"
+        android:layout_margin="2dp"
+        android:background="@drawable/shape_ques_content_light"
+        android:padding="20dp"
+        android:textSize="30sp"
+        android:letterSpacing="0.1"
+        android:lineSpacingExtra="10sp"
+        android:scrollbars="vertical"
+
+        />
+
+
+
+</LinearLayout>

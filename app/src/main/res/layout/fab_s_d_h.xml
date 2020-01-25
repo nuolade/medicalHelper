@@ -1,0 +1,27 @@
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="bottom|end"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/float_dialog"
+        app:backgroundTint="@color/colorOrangeRed"
+        android:src="@drawable/base_dialog_off"
+        app:fabSize="mini"
+        android:layout_marginRight="10dp"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/float_sound"
+        app:backgroundTint="@color/colorButtonPress"
+        app:fabSize="mini"
+        android:src="@drawable/base_sound_on"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>

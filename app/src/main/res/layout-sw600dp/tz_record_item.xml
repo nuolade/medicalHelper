@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="2dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/record_no"
+            android:textSize="17sp"
+            android:background="@color/colorAliceBlue"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <include layout="@layout/line_v_blue"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/record_name"
+            android:textSize="17sp"
+            android:background="@color/colorAliceBlue"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <include layout="@layout/line_v_blue"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/record_gander"
+            android:textSize="17sp"
+            android:background="@color/colorAliceBlue"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <include layout="@layout/line_v_blue"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/record_phone"
+            android:textSize="17sp"
+            android:background="@color/colorAliceBlue"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <include layout="@layout/line_v_blue"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/record_date"
+            android:textSize="17sp"
+            android:background="@color/colorAliceBlue"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        <include layout="@layout/line_v_blue"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/record_time"
+            android:textSize="17sp"
+            android:background="@color/colorAliceBlue"
+            android:gravity="center"
+            android:layout_margin="1dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+    </LinearLayout>
+    <include layout="@layout/line_h_blue"/>
+
+</LinearLayout>

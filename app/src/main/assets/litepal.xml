@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="Helper"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="com.example.wenda01.beans.bz.BzSymptom"></mapping>
+        <mapping class="com.example.wenda01.beans.bz.BzQuestion"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzAllQuestion"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzOneQuestion"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzOneIntorduction"></mapping>
+        <mapping class="com.example.wenda01.beans.dj.Account"></mapping>
+        <mapping class="com.example.wenda01.beans.bz.BzRecord"></mapping>
+        <mapping class="com.example.wenda01.beans.xj.XjCkKnowledge"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzChildQuestion"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzAdultQuestion"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzAdultKeyQuestion"></mapping>
+        <mapping class="com.example.wenda01.beans.yw.MedicineInteraction"></mapping>
+        <mapping class="com.example.wenda01.beans.yw.MedicineEffect"></mapping>
+        <mapping class="com.example.wenda01.beans.yw.MedicineIndex"></mapping>
+        <mapping class="com.example.wenda01.beans.qa.QaMsg"></mapping>
+        <mapping class="com.example.wenda01.beans.qa.QaSession"></mapping>
+        <mapping class="com.example.wenda01.beans.tz.TzOneRecord"></mapping>
+        <mapping class="com.example.wenda01.beans.area.Province"></mapping>
+        <mapping class="com.example.wenda01.beans.area.City"></mapping>
+        <mapping class="com.example.wenda01.beans.area.County"></mapping>
+
+    </list>
+</litepal>

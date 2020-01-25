@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:padding="1dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/shape_ques_title"
+            android:id="@+id/tz_one_title"
+            android:layout_margin="1dp"
+            android:paddingLeft="20dp"
+            android:textSize="32sp"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorTextWhite"
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <ProgressBar
+                android:layout_margin="2dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progressbar"
+                android:progress="10"
+                android:id="@+id/tz_one_progress"
+                >
+
+            </ProgressBar>
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button_show"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/layout_tz_num"
+            android:layout_weight="2">
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tz_recycler_one"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:id="@+id/tz_one_text"
+            android:text="@string/question_content_tint"
+            android:layout_margin="2dp"
+            android:background="@drawable/shape_ques_content_light"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:letterSpacing="0.1"
+            android:lineSpacingExtra="10sp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:layout_margin="2dp"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/button_pre"
+            android:background="@drawable/shape_button_pre"
+            android:text="上一步"
+            android:layout_margin="2dp"
+            android:textSize="19sp"
+            android:textColor="@color/colorTextWhite"
+            >
+
+        </Button>
+
+
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/button_yes"
+            android:background="@drawable/shape_button_yes"
+            android:text="是"
+            android:layout_margin="2dp"
+            android:textSize="19sp"
+            android:textColor="@color/colorTextWhite"
+
+            >
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/button_no"
+            android:background="@drawable/shape_button_no"
+            android:text="否"
+            android:layout_margin="2dp"
+            android:textSize="19sp"
+            android:textColor="@color/colorTextWhite"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/button_analyze"
+            android:background="@drawable/shape_button_analyze"
+            android:text="分析"
+            android:layout_margin="2dp"
+            android:textSize="19sp"
+            android:textColor="@color/colorTextWhite"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/button_flag"/>
+    </LinearLayout>
+
+</LinearLayout>

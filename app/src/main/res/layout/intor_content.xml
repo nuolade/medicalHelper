@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/i_title"
+        android:text="节气查询"
+        android:background="@color/colorBGTitle"
+        android:textColor="@color/colorTextWhite"
+        android:layout_margin="1dp"
+        android:paddingLeft="20dp"
+        android:textSize="30sp"
+        android:gravity="center_vertical"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/i_list"
+        />
+
+</LinearLayout>
